@@ -3,7 +3,7 @@ package colineal
 class Detalle {
 
 
-    String cantidad
+    Integer cantidad
     Cabecera cabecera
     Producto producto
 

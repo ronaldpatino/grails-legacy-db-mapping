@@ -11,21 +11,24 @@
     <thead>
     <tr>
         <th>ID</th>
-        <th>Name</th>
-        <th>Age</th>
+        <th>Cantidad</th>
+        <th>Descripcion</th>
+        <th>Valor Unitario</th>
+        <th>Valor Total</th>
+
     </tr>
     </thead>
     <tbody>
     <g:each in="${cabeceraInstance.detalles}" status="i" var="detalles">
         <tr>
-            <td>${detalles.coditem}</td>
+            <td>${detalles.producto.id}</td>
             <td>${detalles.cantidad}</td>
-            <td>NOMBRE</td>
+            <td>${detalles.producto.nombre}</td>
+            <td>${detalles.producto.precio}</td>
+            <td>${detalles.producto.precio.toBigDecimal() * detalles.cantidad}</td>
+
         </tr>
     </g:each>
-    <tr>
-        TOTALES
-    </tr>
     </tbody>
 </table>
 </body>
