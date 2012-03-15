@@ -6,8 +6,9 @@ class Detalle {
     String cantidad
     Cabecera cabecera
     Producto producto
-    static belongsTo =  [Cabecera, Producto]
 
+
+    static belongsTo =  Cabecera
 
     static mapping = {
 

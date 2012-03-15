@@ -35,9 +35,9 @@
 				<g:if test="${cabeceraInstance?.detalles}">
 				<li class="fieldcontain">
 					<span id="detalles-label" class="property-label"><g:message code="cabecera.detalles.label" default="Detalles" /></span>
-					
+
 						<g:each in="${cabeceraInstance.detalles}" var="d">
-						<span class="property-value" aria-labelledby="detalles-label"><g:link controller="detalle" action="show" id="${d.id}">${d?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="detalles-label"><g:link controller="detalle" action="show" id="${d.id}">${d.producto.nombre}</g:link></span>
 						</g:each>
 					
 				</li>

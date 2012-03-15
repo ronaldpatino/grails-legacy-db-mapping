@@ -4,6 +4,7 @@ dataSource {
     dialect = "org.hibernate.dialect.SQLServerDialect"
     username = "sa"
     password = "col1968"
+    loggingSql = true
 }
 
 hibernate {

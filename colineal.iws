@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cc8b9c3d-cdf3-417e-a8cf-6986a70ff8b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colineal.iws" afterPath="$PROJECT_DIR$/colineal.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/colineal/CabeceraController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/colineal/CabeceraController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/colineal/Cliente.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/colineal/Cliente.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/colineal/Detalle.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/colineal/Detalle.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cabecera/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cabecera/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cabecera/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cabecera/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/detalle/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/detalle/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/detalle/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/detalle/list.gsp" />
     </list>
     <ignored path="colineal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,31 +66,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Detalle.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Detalle.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Detalle.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="233" selection-end="233" vertical-scroll-proportion="-5.860465">
+            <state line="18" column="32" selection-start="290" selection-end="290" vertical-scroll-proportion="0.54915255">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/detalle/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="116" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.31413612">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Producto.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="-7.5348835">
+            <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.3488371">
               <folding />
             </state>
           </provider>
@@ -101,15 +90,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="21" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/detalle/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="48" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-7.4468083">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cabecera.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="119" selection-end="119" vertical-scroll-proportion="-4.1860466">
+            <state line="20" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="-8.372093">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/cabecera/show.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="161" selection-start="1916" selection-end="1916" vertical-scroll-proportion="-6.12766">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -135,22 +151,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/colineal/PdfController.groovy" />
         <option value="$USER_HOME$/.grails/2.0.1/projects/colineal/plugins/pdf-0.6/grails-app/views/pdf/demo2.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/print.css" />
         <option value="$PROJECT_DIR$/grails-app/views/cabecera/imprimir.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/main.css" />
         <option value="$USER_HOME$/.grails/2.0.1/projects/colineal/plugins/pdf-0.6/grails-app/controllers/pdf/PdfController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/colineal/Cliente.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/colineal/CabeceraController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/cabecera/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/cabecera/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/detalle/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/detalle/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/colineal/Detalle.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/cabecera/show.gsp" />
       </list>
     </option>
   </component>
@@ -406,6 +422,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4939117" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826748" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -414,19 +431,18 @@
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826748" sideWeight="0.49695587" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.67021275" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24885845" sideWeight="0.67021275" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24885845" sideWeight="0.67173254" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -488,16 +504,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.grails/2.0.1/projects/colineal/plugins/pdf-0.6/grails-app/views/pdf/demo.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="294" selection-end="294" vertical-scroll-proportion="-0.358047" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0016313214" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/demo.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="63" selection-start="1454" selection-end="1454" vertical-scroll-proportion="-3.9027777" />
@@ -554,9 +560,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/detalle/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="119" selection-end="119" vertical-scroll-proportion="-4.1860466">
+        <state line="42" column="48" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-7.4468083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/detalle/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="116" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.52879584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.3488371">
           <folding />
         </state>
       </provider>
@@ -566,14 +593,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/cabecera/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1980" selection-end="1980" vertical-scroll-proportion="-6.12766">
+        <state line="39" column="161" selection-start="1916" selection-end="1916" vertical-scroll-proportion="-6.12766">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Producto.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Cabecera.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="-7.5348835">
+        <state line="20" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="-8.372093">
           <folding />
         </state>
       </provider>
@@ -583,19 +610,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/colineal/Detalle.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="233" selection-end="233" vertical-scroll-proportion="-5.860465">
+        <state line="18" column="32" selection-start="290" selection-end="290" vertical-scroll-proportion="0.54915255">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/detalle/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="116" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.31413612">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

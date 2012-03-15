@@ -6,8 +6,6 @@ class Producto {
     String precio
     String iva
 
-    static hasOne = [detalle : Detalle]
-
     static mapping = {
 
         table 'PROD010'
@@ -17,6 +15,7 @@ class Producto {
             nombre column: 'NOMBRE'
             precio column: 'PRECIO'
             iva column: 'IVA'
+
         }
     }
 
