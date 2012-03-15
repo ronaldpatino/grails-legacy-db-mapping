@@ -1,6 +1,7 @@
 dataSource {
     pooled = true
     driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    dialect = "org.hibernate.dialect.SQLServerDialect"
     username = "sa"
     password = "col1968"
 }
