@@ -109,7 +109,16 @@ class CabeceraController {
             return
         }
 
-        [cabeceraInstance: cabeceraInstance]
+        Float subTotal = 0
+        Float iva = 0
+        Float total = 0
+        cabeceraInstance.detalles.each() {
+                subTotal += it.cantidad * Float.parseFloat(it.producto.precio)
+        }
+        iva = subTotal * 0.12;
+        total = subTotal + iva
+
+        [cabeceraInstance: cabeceraInstance, subTotal: subTotal.round(2), iva: iva.round(2), total: total.round(2)]
 
     }
 

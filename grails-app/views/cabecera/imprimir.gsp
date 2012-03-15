@@ -26,9 +26,26 @@
             <td>${detalles.producto.nombre}</td>
             <td>${detalles.producto.precio}</td>
             <td>${detalles.producto.precio.toBigDecimal() * detalles.cantidad}</td>
-
         </tr>
     </g:each>
+    </tbody>
+    <tbody>
+        <tr>
+            <td colspan="3"></td>
+            <td>SUBTOTAL</td>
+            <td>$ ${subTotal}</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>IVA</td>
+            <td>$ ${iva}</td>
+        </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td>TOTAL</td>
+        <td>$   ${total}</td>
+    </tr>
+
     </tbody>
 </table>
 </body>
