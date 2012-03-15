@@ -12,7 +12,15 @@ class CabeceraController {
 
     def list() {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
-        [cabeceraInstanceList: Cabecera.list(params), cabeceraInstanceTotal: Cabecera.count()]
+
+
+        def c = Cabecera.createCriteria()
+        def results = c.list {
+            eq("cliente.id", Long.parseLong( params.id))
+
+            maxResults(10)
+        }
+        [cabeceraInstanceList: results, cabeceraInstanceTotal: Cabecera.count()]
     }
 
     def create() {
