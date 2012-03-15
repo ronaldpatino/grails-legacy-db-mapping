@@ -4,7 +4,7 @@ import org.springframework.dao.DataIntegrityViolationException
 
 class CabeceraController {
 
-    static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
+    static allowedMethods = [save: "POST", update: "POST", delete: "POST", imprimir: "GET"]
 
     def index() {
         redirect(action: "list", params: params)
@@ -99,5 +99,17 @@ class CabeceraController {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'cabecera.label', default: 'Cabecera'), params.id])
             redirect(action: "show", id: params.id)
         }
+    }
+
+    def imprimir() {
+        def cabeceraInstance = Cabecera.get(params.id)
+        if (!cabeceraInstance) {
+            flash.message = message(code: 'default.not.found.message', args: [message(code: 'cabecera.label', default: 'Cabecera'), params.id])
+            redirect(action: "list")
+            return
+        }
+
+        [cabeceraInstance: cabeceraInstance]
+
     }
 }
