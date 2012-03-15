@@ -2,10 +2,13 @@ package colineal
 
 class Cabecera {
 
-    Integer codcliente
+
     String  fecha
+    Cliente cliente
 
     static hasMany = [detalles : Detalle]
+
+
 
     static mapping = {
 
@@ -13,9 +16,9 @@ class Cabecera {
         version false
         columns {
             id column:'CODCABECERA'
-            codcliente column:'CODCLIENTE'
             fecha column:'FECHA'
             detalles column: 'CODDETALLE'
+            cliente column: 'CODCLIENTE'
         }
     }
 

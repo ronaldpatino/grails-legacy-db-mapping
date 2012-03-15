@@ -41,11 +41,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${detalleInstance?.coditem}">
+				<g:if test="${detalleInstance?.producto}">
 				<li class="fieldcontain">
-					<span id="coditem-label" class="property-label"><g:message code="detalle.coditem.label" default="Coditem" /></span>
+					<span id="coditem-label" class="property-label"><g:message code="detalle.producto.label" default="Coditem" /></span>
 					
-						<span class="property-value" aria-labelledby="coditem-label"><g:fieldValue bean="${detalleInstance}" field="coditem"/></span>
+						<span class="property-value" aria-labelledby="coditem-label"><g:fieldValue bean="${detalleInstance}" field="producto"/></span>
 					
 				</li>
 				</g:if>

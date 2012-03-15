@@ -2,12 +2,24 @@ package colineal
 
 class Cliente {
 
-    Integer id
+
     String  nombre
     String  apellido
+    Integer codciudad
 
-    static constraints = {
+
+    static mapping = {
+
+        table 'CLI030'
+        version false
+        columns {
+            id column:'CODCLIENTE'
+            nombre column:'NOMBRE'
+            apellido column:'APELLIDO'
+            codciudad column: 'CODCIUDAD'
+
+
+        }
     }
-
 
 }

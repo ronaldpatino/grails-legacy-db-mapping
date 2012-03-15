@@ -23,11 +23,11 @@
 			</g:if>
 			<ol class="property-list cabecera">
 			
-				<g:if test="${cabeceraInstance?.codcliente}">
+				<g:if test="${cabeceraInstance?.cliente}">
 				<li class="fieldcontain">
-					<span id="codcliente-label" class="property-label"><g:message code="cabecera.codcliente.label" default="Codcliente" /></span>
+					<span id="codcliente-label" class="property-label"><g:message code="cabecera.cliente.label" default="Codcliente" /></span>
 					
-						<span class="property-value" aria-labelledby="codcliente-label"><g:fieldValue bean="${cabeceraInstance}" field="codcliente"/></span>
+						<span class="property-value" aria-labelledby="codcliente-label"><g:fieldValue bean="${cabeceraInstance}" field="cliente.nombre"/></span>
 					
 				</li>
 				</g:if>

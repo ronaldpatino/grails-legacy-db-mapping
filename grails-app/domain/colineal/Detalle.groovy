@@ -2,11 +2,11 @@ package colineal
 
 class Detalle {
 
-    String coditem
+
     String cantidad
     Cabecera cabecera
-
-    static belongsTo =  Cabecera
+    Producto producto
+    static belongsTo =  [Cabecera, Producto]
 
 
     static mapping = {
@@ -15,7 +15,7 @@ class Detalle {
         version false
         columns {
             id column:'CODDETALLE'
-            coditem column:'CODITEM'
+            producto column:'CODPROD'
             cantidad column:'CANTIDAD'
             cabecera column: 'CODCABECERA'
         }
