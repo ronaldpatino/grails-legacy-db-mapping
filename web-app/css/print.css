@@ -1,0 +1,24 @@
+@page {
+    size: 8.5in 11in;  /* width height */
+    margin: 0.25in;
+}
+body{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 80%;
+}
+.sample_table {
+
+    width:60%;
+    background-color:#b2b2b2;
+}
+.sample_table th {
+    text-align:center;
+    text-decoration:underline;
+}
+.sample_table td {
+    padding:7px;
+    background-color: #fff;
+}
+.small_text {
+    font-size:8pt;
+}
