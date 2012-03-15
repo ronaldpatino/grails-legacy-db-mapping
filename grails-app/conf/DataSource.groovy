@@ -1,8 +1,8 @@
 dataSource {
     pooled = true
-    driverClassName = "com.mysql.jdbc.Driver"
-    username = "root"
-    password = "root"
+    driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    username = "sa"
+    password = "col1968"
 }
 
 hibernate {
@@ -14,7 +14,7 @@ hibernate {
 environments {
     development {
         dataSource {
-            url = "jdbc:mysql://localhost:3306/test? autoreconnect=true"
+            url = "jdbc:sqlserver://localhost:1433;databaseName=test"
         }
     }
     test {
